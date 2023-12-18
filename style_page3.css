@@ -1,0 +1,75 @@
+body{ background-color:  #1e4b0a;
+
+}
+h1{
+border:  30px solid;
+color:black;
+background-position: center;
+margin: 3%;
+padding: 3%;
+background-image: url(orks\ logo\ 1.jpg);
+text-decoration: underline;
+font-size: 100px;}
+
+ul{ 
+    float: center;
+    display: block;
+    list-style-type: none;
+    border: 15PX solid black;
+    margin-right: 180px;
+    margin-left:180px ;
+    text-align: center;
+    background: #397320;
+    font-size: 
+  }
+
+
+    ul a {
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;}
+     
+ .zeleno{
+    width: 45%;
+    margin-left: 100px;
+    margin-right: 0px;
+    background-color:#397320;
+    float: left;
+    text-align: center;
+    font-weight: 700;
+    font-size: large;
+    color: black;
+    border: 15px solid black;
+    padding: 0px 10px;}
+
+    .slika_container2{
+        border: 25PX SOLID #ae8e2c;
+        margin-right: 100PX;
+      float: right;}
+
+       .slika_container2{
+        
+        position: relative;
+        display: inline-block;}
+
+      .slika_container2::after {
+        content: 'WAR BOSS';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 5px;
+        font-size: 20px;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;}
+      
+      .slika_container2:hover::after {
+        opacity: 1;}
+
+      .zeleni{font-size: 30px }
+      .zeleni1{text-decoration: underline; font-size: larger;}
+       
+
+ 
