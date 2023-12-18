@@ -1,0 +1,70 @@
+body{
+    background-color:	#494a4e;
+}
+
+ ul{
+    float: center;
+    display: block;
+    list-style-type: none;
+    border: 15PX solid black;
+    margin-right: 180px;
+    margin-left:180px ;
+    text-align: center;
+    background: #a6192e;
+    font-size: }
+ul a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;}
+a:hover{color: black;}
+
+ul li :hover{
+    background-color:#700c15;}
+
+h1{ 
+     text-decoration: underline;
+    font-size: 100px;
+    border:  30px solid;
+    color:black;
+    padding: 3%;
+    background-image: url(ist2.jpg);
+   margin: 3%;}
+
+   nav{border: 2px solid; }
+
+    main {
+        background-image:url(borbeno\ polje.jpg);
+        font-weight: 700;
+        font-size: large;
+        color: white;
+        margin-left: 100px;
+        margin-right: 100px;
+        border: 15px solid black;
+        padding: 0px 10px;}
+    .MARINAC{
+        text-decoration:underline;
+        border: 4px solid;}
+        .hero1{font-size: ;}
+    H2{text-decoration: underline;
+        text-align: center;
+        border:  10px solid;
+        color: black;
+        background-color:crimson;
+        text-size-adjust: bold;
+    text-decoration: ;}
+     
+
+
+        
+
+    
+
+
+
+
+   
+
+    
+
+    
+

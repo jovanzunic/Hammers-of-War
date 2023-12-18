@@ -1,0 +1,90 @@
+ 
+  body{
+    background-color:#052c45;
+  }
+ 
+  h1{ text-decoration: underline;
+
+    border:  30px solid;
+    color:#57595b;
+    background-size: cover; 
+    background-position: center;
+    margin: 3%;
+    padding: 3%;
+    background-image: url(marinci\ grb.jpg);
+    font-size: 100px;}
+
+   
+   ul{
+    float: center;
+    display: block;
+    list-style-type: none;
+    border: 10PX solid black;
+    margin-right: 180px;
+    margin-left:180px ;
+    text-align: center;
+    background-color: #1978a5;
+    font-size: }
+ul a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;}
+a:hover{color: black;}
+
+ul li :hover{
+    background-color:darkblue;}
+    nav{border: 2px solid; }
+.plavo{
+    width: 45%;
+    margin-left: 100px;
+    margin-right: 0px;
+    background-color:#1978a5;
+    float: left;
+    text-align: center;
+    font-weight: 700;
+    font-size: large;
+    color: black;
+    border: 15px solid black;
+    padding: 0px 10px;}
+
+.hero1{
+  font-size: 25px;
+  text-decoration: underline;
+}
+.hero{
+  font-size: 25px;
+    text-decoration:underline;
+        border: 2px solid;}
+    
+
+.slika_container img{border:20px solid grey ;} 
+
+.slika_container {
+    
+    position: relative;
+    display: inline-block;
+  }
+  
+  .slika_container::after {
+    content: 'KAPETAN TITUS';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .slika_container:hover::after {
+    opacity: 1;
+  }
+   
+
+    
+       
+
+    

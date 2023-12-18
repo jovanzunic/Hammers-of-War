@@ -1,0 +1,68 @@
+body{
+    background-size: cover;
+    position: center;
+    background-image: url(pozadina\ 2.png);
+}
+
+ ul{
+    padding: 2%;
+    float: left;
+    display: block;
+    list-style-type: none;
+    border: 15PX solid black;
+   margin-left: 180px;
+    text-align: center;
+    background: #c7a12d;
+    font-size: }
+ul a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;}
+a:hover{color: black;}
+
+ul li :hover{
+    background-color:#c7a12d;}
+
+h1{ 
+     text-decoration: underline;
+    font-size: 100px;
+    border:  30px solid;
+    color:black;
+    padding: 3%;
+    background-image: url(pozadina\ 2.png);
+    background-size: cover;
+   margin: 3%;}
+
+   nav{border: 2px solid; }
+   .kontakt{
+    width: 55%;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:#c7a12d;
+    float: left;
+    text-align: center;
+    font-weight: 700;
+    font-size:40px;
+    color: black;
+    border: 15px solid black;
+    padding: 0px 10px;}
+    
+    
+    .FORMA{
+        margin-left: 210px;
+       float: center ;
+        width: 300px;
+        height: 50px;
+    }
+    .FORMA p{
+        background-color:#c7a12d;
+        border: 10px solid black;
+        font-size: large;
+        font-size: 40px;
+    }
+    .input-group{
+        font-size: 30px;
+        border: 10px solid black;
+        background-color:#c7a12d; 
+    }
+ 

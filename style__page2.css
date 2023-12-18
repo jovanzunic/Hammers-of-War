@@ -1,0 +1,87 @@
+body{
+    background-color:#3c0000 ;
+}
+ul{
+    float: center;
+    display: block;
+    list-style-type: none;
+    border: 15PX solid black;
+    margin-right: 180px;
+    margin-left:180px ;
+   
+    text-align: center;
+    background:#8c1919;
+    font-size: }
+ul a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;}
+a:hover{color: black;}
+
+ul li :hover{
+    background-color:#520100;}
+
+h1{ text-decoration: underline;
+    font-size: 100px;}
+
+   h1{border:  30px solid;
+    color: grey;
+    padding: 3%;
+    background-image: url(chaos\ grb.jpg);
+    background-size: cover; 
+    background-position: center;
+   margin: 3%;}
+
+   nav{border: 2px solid; }
+
+   .crveno{
+    width: 45%;
+    background-color: #8c1919;
+    padding: 0px 10px;
+    font-weight: 700;
+    float:left;
+    font-size: large;
+    color: white;
+    border: 15px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+   }
+   .slika_container1{
+    border: 25PX SOLID gray;
+    margin-right: 100PX;
+  float: right;
+   }
+   .slika_container1{
+    
+    position: relative;
+    display: inline-block;
+  }
+  
+  .slika_container1::after {
+    content: 'KHâRN the BETRAYE';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .slika_container1:hover::after {
+    opacity: 1;
+  }
+   .crveni1{
+    text-decoration: underline;
+    font-size: 25px;
+   }
+
+  
+  
+   
+
+    
+     
